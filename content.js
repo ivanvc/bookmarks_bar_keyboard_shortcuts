@@ -24,7 +24,7 @@ function modifierIsDown(event) {
 
 function expectedModifiers() {
   if (navigator.platform.indexOf("Mac") === 0) {  // OS X
-    return 'Ctrl';
+    return 'Alt';
   } else if (navigator.platform.indexOf("Win") === 0) {  // Windows
     return 'Alt';
   } else {  // Linux
